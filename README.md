@@ -3,15 +3,24 @@
 ![Project Screenshot](https://github.com/user-attachments/assets/847a87a3-966f-4a13-980f-21cae2dd350f)
 
 
-QuestionSearch is a search functionality for a question database built using Vite, React, MongoDB, gRPC, Fetch API and Express. The project allows users to search and interact with a collection of questions efficiently. The backend uses gRPC for communication, while the frontend is built with React and Vite for faster development and builds.
+QuestionSearch is a search functionality for a question database built using  React, MongoDB, gRPC, Fetch API and Express. The project allows users to search and interact with a collection of questions efficiently. The backend uses gRPC for communication, while the frontend is built with React and Vite for faster development and builds.
 
-## Prerequisites
-
+Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-- Node.js (v17.0 or higher)
-- MongoDB instance running locally or on a cloud service
-- gRPC and protobuf installed for backend communication
+Node.js (v17.0 or higher)
+Download and install Node.js from here.
+
+MongoDB Instance
+
+Local MongoDB: Install MongoDB locally or use a cloud service like MongoDB Atlas.
+MongoDB Compass: Install MongoDB Compass to visually manage your MongoDB database. MongoDB Compass Download.
+gRPC & Protocol Buffers (protobuf)
+
+Install gRPC for communication between the backend and frontend. Follow the installation guide for gRPC here.
+Install protobuf: Follow the installation guide for protobuf here.
+React (v17 or higher)
+React will be used for building the frontend of the application. You can install React by running:
 
 ## Installation
 
