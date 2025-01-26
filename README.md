@@ -2,25 +2,28 @@
 
 ![Project Screenshot](https://github.com/user-attachments/assets/847a87a3-966f-4a13-980f-21cae2dd350f)
 
+**QuestionSearch** is a search functionality for a question database built using React, MongoDB, gRPC, Fetch API, and Express. The project allows users to search and interact with a collection of questions efficiently. The backend uses gRPC for communication, while the frontend is built with React for fast development.
 
-QuestionSearch is a search functionality for a question database built using  React, MongoDB, gRPC, Fetch API and Express. The project allows users to search and interact with a collection of questions efficiently. The backend uses gRPC for communication, while the frontend is built with React and Vite for faster development and builds.
+## Prerequisites
 
-Prerequisites
 Before you begin, ensure you have met the following requirements:
 
-Node.js (v17.0 or higher)
-Download and install Node.js from here.
+### 1. Node.js (v17.0 or higher)
+Download and install Node.js from [here](https://nodejs.org/en/).
 
-MongoDB Instance
+### 2. MongoDB Instance
+- **Local MongoDB**: Install MongoDB locally or use a cloud service like [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+- **MongoDB Compass**: Install MongoDB Compass to visually manage your MongoDB database. [MongoDB Compass Download](https://www.mongodb.com/products/compass).
 
-Local MongoDB: Install MongoDB locally or use a cloud service like MongoDB Atlas.
-MongoDB Compass: Install MongoDB Compass to visually manage your MongoDB database. MongoDB Compass Download.
-gRPC & Protocol Buffers (protobuf)
+### 3. gRPC & Protocol Buffers (protobuf)
+- Install **gRPC** for communication between the backend and frontend. Follow the installation guide for gRPC [here](https://grpc.io/docs/languages/node/).
+- Install **protobuf**: Follow the installation guide for **protobuf** [here](https://developers.google.com/protocol-buffers).
 
-Install gRPC for communication between the backend and frontend. Follow the installation guide for gRPC here.
-Install protobuf: Follow the installation guide for protobuf here.
-React (v17 or higher)
+### 4. React (v17 or higher)
 React will be used for building the frontend of the application. You can install React by running:
+```bash
+npx create-react-app question-search
+```
 
 ## Installation
 
