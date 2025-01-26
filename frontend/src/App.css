@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
   background-color: #eef1f6;
   font-family: 'Roboto', sans-serif;
@@ -8,7 +8,7 @@ body {
   transition: background-color 0.3s ease;
 }
 
-/* Main Container */
+
 .main-container {
   background-color: #ffffff;
   border-radius: 12px;
@@ -23,7 +23,7 @@ body {
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Heading */
+
 h1 {
   color: #0056b3;
   font-size: 40px;
@@ -33,7 +33,7 @@ h1 {
   letter-spacing: 1px;
 }
 
-/* Search Box */
+
 .search-input {
   padding: 15px;
   font-size: 18px;
@@ -48,7 +48,7 @@ h1 {
   box-shadow: 0 0 12px rgba(0, 64, 128, 0.5);
 }
 
-/* Filter Dropdown */
+
 .filter-dropdown-container {
   text-align: center;
   margin-bottom: 30px;
@@ -80,7 +80,7 @@ h1 {
   color: #0056b3;
 }
 
-/* Question List */
+
 .question-list {
   background-color: #f9f9f9;
   border-radius: 10px;
@@ -102,7 +102,7 @@ h1 {
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
 }
 
-/* Answer Button */
+
 .answer-button {
   margin: 10px 0;
   width: 100%;
@@ -121,7 +121,7 @@ h1 {
   transform: scale(1.05);
 }
 
-/* Pagination */
+
 .pagination {
   margin-top: 30px;
   display: flex;
@@ -143,7 +143,7 @@ h1 {
   color: #ffffff;
 }
 
-/* Alerts */
+
 .alert-custom {
   border-radius: 10px;
   font-size: 16px;
@@ -159,7 +159,7 @@ h1 {
   padding: 20px;
 }
 
-/* Loading Spinner */
+
 .spinner-border {
   color: #007bff;
   animation: spinner 1s linear infinite;
@@ -174,7 +174,7 @@ h1 {
   }
 }
 
-/* Anagram Section */
+
 .anagram-container {
   margin-top: 20px;
 }
@@ -199,13 +199,13 @@ h1 {
   font-size: 24px;
   margin-top: 15px;
   font-weight: bold;
-  letter-spacing: 5px; /* Adds space between letters */
-  display: inline-block;  /* Ensure letters are spaced properly */
-  margin-right: 10px;  /* Adds space between each letter */
-  padding: 5px 10px;  /* Adds some padding for better visibility */
+  letter-spacing: 5px; 
+  display: inline-block;  
+  margin-right: 10px;  
+  padding: 5px 10px;  
 }
 
-/* Container for letters with proper spacing */
+
 .anagram-container .d-flex {
   justify-content: space-between;
   flex-wrap: wrap;
@@ -217,7 +217,7 @@ h1 {
   font-weight: bold;
   color: #333;
   margin-top: 20px;
-  white-space: pre-wrap; /* Ensure spaces between words are preserved */
+  white-space: pre-wrap; 
   text-align: center;
 }
 
@@ -227,13 +227,13 @@ h1 {
   border-radius: 12px;
   border: 1px solid #ddd;
   margin: 20px 0;
-  text-align: center; /* Ensures the text is centered */
+  text-align: center; 
 }
 
 .anagram-blocks {
   display: flex;
-  justify-content: space-evenly; /* Ensures equal spacing between blocks */
-  flex-wrap: wrap; /* Allows for wrapping of blocks */
+  justify-content: space-evenly; 
+  flex-wrap: wrap; 
   margin-top: 15px;
 }
 
@@ -246,20 +246,19 @@ h1 {
   cursor: pointer;
   border-radius: 8px;
   transition: all 0.3s ease;
-  white-space: nowrap; /* Ensures that words don’t break incorrectly */
-}
+  white-space: nowrap; 
 
 .anagram-block:hover {
   background-color: #d6d8db;
 }
 
-/* Styling for the final sentence */
+
 .final-sentence {
   font-size: 24px;
   font-weight: bold;
   color: #333;
   margin-top: 20px;
-  white-space: pre-wrap; /* Preserves the spaces between words */
+  white-space: pre-wrap; 
   text-align: center;
 }
 
