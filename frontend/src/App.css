@@ -1,0 +1,270 @@
+/* Global Styles */
+body {
+  background-color: #eef1f6;
+  font-family: 'Roboto', sans-serif;
+  color: #222;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease;
+}
+
+/* Main Container */
+.main-container {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  margin: 50px auto;
+  width: 80%;
+  transition: box-shadow 0.3s ease;
+}
+
+.main-container:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+  color: #0056b3;
+  font-size: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Search Box */
+.search-input {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid #007bff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.search-input:focus {
+  border-color: #004080;
+  box-shadow: 0 0 12px rgba(0, 64, 128, 0.5);
+}
+
+/* Filter Dropdown */
+.filter-dropdown-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.filter-dropdown {
+  width: 100%;
+  padding: 15px;
+  background-color: #007bff;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-dropdown:hover {
+  background-color: #0056b3;
+}
+
+.filter-dropdown .dropdown-item {
+  font-size: 16px;
+  padding: 12px 20px;
+}
+
+.filter-dropdown .dropdown-item:hover {
+  background-color: #e3f2ff;
+  color: #0056b3;
+}
+
+/* Question List */
+.question-list {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.question-item {
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+  background-color: #ffffff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.question-item:hover {
+  background-color: #e3f2ff;
+  box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+}
+
+/* Answer Button */
+.answer-button {
+  margin: 10px 0;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.answer-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Pagination */
+.pagination {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .page-item {
+  font-size: 18px;
+  margin: 0 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  transition: all 0.3s ease;
+}
+
+.pagination .page-item:hover {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+/* Alerts */
+.alert-custom {
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 15px;
+}
+
+.feedback-alert {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 20px;
+}
+
+/* Loading Spinner */
+.spinner-border {
+  color: #007bff;
+  animation: spinner 1s linear infinite;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Anagram Section */
+.anagram-container {
+  margin-top: 20px;
+}
+
+.anagram-button {
+  font-size: 18px;
+  padding: 10px 15px;
+  margin: 5px;
+  background-color: #e2e3e5;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.anagram-button:hover {
+  background-color: #d6d8db;
+}
+
+.selected-letters {
+  font-size: 24px;
+  margin-top: 15px;
+  font-weight: bold;
+  letter-spacing: 5px; /* Adds space between letters */
+  display: inline-block;  /* Ensure letters are spaced properly */
+  margin-right: 10px;  /* Adds space between each letter */
+  padding: 5px 10px;  /* Adds some padding for better visibility */
+}
+
+/* Container for letters with proper spacing */
+.anagram-container .d-flex {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.anagram-final-answer {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  white-space: pre-wrap; /* Ensure spaces between words are preserved */
+  text-align: center;
+}
+
+.anagram-question {
+  background-color: #f8f9fa;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  margin: 20px 0;
+  text-align: center; /* Ensures the text is centered */
+}
+
+.anagram-blocks {
+  display: flex;
+  justify-content: space-evenly; /* Ensures equal spacing between blocks */
+  flex-wrap: wrap; /* Allows for wrapping of blocks */
+  margin-top: 15px;
+}
+
+.anagram-block {
+  font-size: 24px;
+  padding: 15px 20px;
+  margin: 5px;
+  background-color: #e2e3e5;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  white-space: nowrap; /* Ensures that words don’t break incorrectly */
+}
+
+.anagram-block:hover {
+  background-color: #d6d8db;
+}
+
+/* Styling for the final sentence */
+.final-sentence {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+  white-space: pre-wrap; /* Preserves the spaces between words */
+  text-align: center;
+}
+
+.feedback-alert {
+  font-size: 1.2rem;
+  text-align: left;
+  padding: 20px;
+}
