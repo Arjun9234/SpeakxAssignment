@@ -57,20 +57,20 @@ Ensure there is a .env file in the backend directory with the following variable
 Once both the frontend and backend servers are running, you can access the application via http://localhost:3000 (or whichever port the frontend is running on). You can use the search functionality to query the question database.
 
 ### Search For All Type Of Questions: 
-https://github.com/user-attachments/assets/60912ee3-3558-428a-8731-dc1c50162098
+![Project Screenshot](https://github.com/user-attachments/assets/60912ee3-3558-428a-8731-dc1c50162098)
 
 
 ### Search For Read Along Type of Questions:
-https://github.com/user-attachments/assets/7e2e8be6-8452-4221-805f-06c62ab51457
+![Project Screenshot](https://github.com/user-attachments/assets/7e2e8be6-8452-4221-805f-06c62ab51457)
 
 
 ### Search For MCQ Type of Questions:
-https://github.com/user-attachments/assets/36373d3c-da2e-452a-ada3-9ce6881323fc
+![Project Screenshot](https://github.com/user-attachments/assets/36373d3c-da2e-452a-ada3-9ce6881323fc)
 
 
 ### Search For Anagram Type of Questions: 
-https://github.com/user-attachments/assets/826328c6-f2e7-4407-9956-3414407047aa
+![Project Screenshot](https://github.com/user-attachments/assets/826328c6-f2e7-4407-9956-3414407047aa)
 
 
 ### Search For Content Only Type of Questions:
-https://github.com/user-attachments/assets/60912ee3-3558-428a-8731-dc1c50162098
+![Project Screenshot](https://github.com/user-attachments/assets/60912ee3-3558-428a-8731-dc1c50162098)
