@@ -1,7 +1,6 @@
 # QuestionSearch
 
-![Project Screenshot](![Screenshot 2025-01-26 201645](https://github.com/user-attachments/assets/847a87a3-966f-4a13-980f-21cae2dd350f)
-)
+![Project Screenshot](https://github.com/user-attachments/assets/847a87a3-966f-4a13-980f-21cae2dd350f)
 
 
 QuestionSearch is a search functionality for a question database built using Vite, React, MongoDB, gRPC, Fetch API and Express. The project allows users to search and interact with a collection of questions efficiently. The backend uses gRPC for communication, while the frontend is built with React and Vite for faster development and builds.
