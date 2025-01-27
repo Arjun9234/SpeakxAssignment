@@ -73,11 +73,11 @@ Once both the frontend and backend servers are running, you can access the appli
 
 
 ### Search For Read Along Type of Questions:
-![Project Screenshot](https://github.com/user-attachments/assets/7e2e8be6-8452-4221-805f-06c62ab51457)
+![Project Screenshot](https://github.com/user-attachments/assets/36373d3c-da2e-452a-ada3-9ce6881323fc)
 
 
 ### Search For MCQ Type of Questions:
-![Project Screenshot](https://github.com/user-attachments/assets/36373d3c-da2e-452a-ada3-9ce6881323fc)
+![Project Screenshot](https://github.com/user-attachments/assets/7e2e8be6-8452-4221-805f-06c62ab51457)
 
 
 ### Search For Anagram Type of Questions: 
