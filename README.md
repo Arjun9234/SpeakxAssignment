@@ -85,4 +85,4 @@ Once both the frontend and backend servers are running, you can access the appli
 
 
 ### Search For Content Only Type of Questions:
-![Project Screenshot](https://github.com/user-attachments/assets/60912ee3-3558-428a-8731-dc1c50162098)
+![Project Screenshot](https://github.com/user-attachments/assets/826328c6-f2e7-4407-9956-3414407047aa)
