@@ -118,7 +118,7 @@ const SearchQuestions = () => {
 
   return (
     <Container className="main-container">
-      <h1 className="my-4 text-center text-black">Search Questions</h1>
+      <h1 className="my-4 text-center text-primary">Search Questions</h1>
 
       <Row className="mb-4">
         <Col xs={12} md={8} className="mx-auto">
